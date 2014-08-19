@@ -136,7 +136,7 @@ module.exports = {
   poolMatchFile: rootPath + '/etc/minersPoolStrings.json',
 
   // Time to refresh the currency rate. In minutes
-  currencyRefresh: 10,
+  currencyRefresh: 1,
   keys: {
     segmentio: process.env.INSIGHT_SEGMENTIO_KEY
   },
